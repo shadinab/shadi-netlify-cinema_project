@@ -1,6 +1,7 @@
 
 import { NavLink } from "react-router-dom";
 import "../index.css"; // Import your CSS file for styling
+import Navbar from "/public/assets/first page/navbar/movies types images/Navbar.jpg";
 
 // home page navbar
 
@@ -12,10 +13,7 @@ const NavBar = () => {
           to="/login"
           className={({ isActive }) => (isActive ? "active" : undefined)}
         >
-          <img
-            src="/public/assets/first page/navbar/navbar logo.PNG"
-            alt="Navbar logo"
-          />
+          <img src={Navbar} alt="Navbar logo" />
         </NavLink>
       </div>
       <div className="nav-links">

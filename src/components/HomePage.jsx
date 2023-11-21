@@ -16,12 +16,15 @@ const HomePage = () => {
       </div>
       <div className="movie-list">
         <Link to="/Store" className="movie-card">
-          <img src="/public/assets/first page/store.PNG" alt="Movie 1" />
+          <img
+            src="/public/assets/first page/navbar/movies types images/store.jpg"
+            alt="Movie 1"
+          />
           <h2>store</h2>
         </Link>
         <Link to="/Movies" className="movie-card">
           <img
-            src="/public/assets/first page/move theater 02.PNG"
+            src="/public/assets/first page/navbar/movies types images/move theater 02.jpg"
             alt="Movie List"
           />
           <h2>Movies</h2>
