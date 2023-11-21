@@ -1,0 +1,74 @@
+/* MovieImax.css */
+.imax-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 50px;
+  background-color: #1c1c1c;
+  color: #ffffff;
+  text-align: center;
+}
+
+.imax-image {
+  width: 300px;
+  border: 5px solid #ffffff;
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+
+h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+p {
+  font-size: 20px;
+  line-height: 1.5;
+  max-width: 600px;
+}
+
+.imax-image {
+  /* ... (previous styles) */
+  transition: transform 0.3s ease;
+}
+
+.imax-image:hover {
+  transform: scale(1.1);
+}
+
+
+ @media screen and (max-width: 600px) {
+  .exit {
+    color: white;
+    /* padding: 10px 20px; */
+    border: none;
+     /* border-radius: 50%;  */
+     cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-bottom: 2rem;
+/* height: 12vh;  } */
+  }
+} 
+
+.imax-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+  align-content: center;
+}
+
+
+
+.movie-card1 {
+ text-align: center;
+}
+
+
+
+
+
+
+

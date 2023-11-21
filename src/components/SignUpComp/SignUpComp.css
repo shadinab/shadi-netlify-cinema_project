@@ -1,0 +1,99 @@
+.allpageConainerSignUp {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+}
+.makeTitleOnCenter {
+  text-align: center;
+}
+.signup-container {
+  width: 300px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  animation: fadeIn 0.5s ease;
+}
+
+.signup-container h2 {
+  margin-bottom: 20px;
+  color: #333;
+  font-size: 24px;
+  animation: fadeInUp 0.8s ease;
+}
+
+.signup-container div {
+  margin-bottom: 15px;
+  text-align: left;
+  opacity: 0;
+  animation: fadeInUp 0.8s ease forwards;
+  animation-delay: 0.2s;
+}
+
+.signup-container label {
+  font-weight: bold;
+  margin-bottom: 5px;
+  color: #555;
+  display: block;
+  text-align: left;
+}
+
+.signup-container input[type="text"],
+.signup-container input[type="password"] {
+  width: calc(100% - 20px);
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-bottom: 10px;
+  transition: border-color 0.3s ease;
+}
+
+.signup-container input[type="text"]:focus,
+.signup-container input[type="password"]:focus {
+  border-color: #4caf50;
+}
+
+.signup-container button {
+  width: calc(100% - 20px);
+  padding: 12px 20px;
+  font-size: 16px;
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-top: 10px;
+  opacity: 0;
+  animation: fadeInUp 0.8s ease forwards;
+  animation-delay: 0.4s;
+}
+
+.signup-container button:hover {
+  background-color: #45a049;
+}
+
+/* Fade-in animation */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* Fade-in from bottom animation */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
