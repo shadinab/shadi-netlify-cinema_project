@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import "../index.css"; // Import your CSS file here
+import "./Navbar/index.css"; // Import your CSS file here
 // import NavBar from "./NavBar";
 import Store from "/public/assets/first page/navbar/movies types images/Store.jpg";
 import Theater from "/public/assets/first page/navbar/movies types images/Theater.jpg";

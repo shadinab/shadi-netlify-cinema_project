@@ -1,5 +1,5 @@
 import "./MovieTypes.css";
-import C4dxImage from "/public/assets/first page/navbar/movies types images/C4dxImage.jpg";
+import C4dxImage from "../../../public/assets/first page/navbar/movies types images/C4dxImage.jpg";
 import { useNavigate } from "react-router-dom";
 
 const C4dx = () => {

@@ -1,5 +1,5 @@
 import "./MovieTypes.css";
-import VipImage from "/public/assets/first page/navbar/movies types images/VipImage.jpg";
+import VipImage from "../../../public/assets/first page/navbar/movies types images/VipImage.jpg";
 import { useNavigate } from "react-router-dom";
 
 const Vip = () => {

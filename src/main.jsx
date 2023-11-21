@@ -5,7 +5,7 @@ import ReactDOM from "react-dom";
 import App from "./App";
 import { ToastContainer } from "react-toastify"; // Import ToastContainer from react-toastify
 import "react-toastify/dist/ReactToastify.css"; // Import the Toastify CSS
-import "./index.css";
+import "./components/Navbar/index.css";
 import { SeatProvider } from "./context/SeatContext";
 
 ReactDOM.render(

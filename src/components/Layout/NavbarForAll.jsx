@@ -1,6 +1,5 @@
 import { useLocation } from "react-router-dom";
-import NavBar from "../NavBar";
-
+import NavBar from "../Navbar/NavBar";
 const NavbarForAll = ({ children }) => {
   const location = useLocation();
   const isLoginPage = location.pathname === "/";
