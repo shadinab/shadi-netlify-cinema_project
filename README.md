@@ -11,8 +11,8 @@ MockAPI Integration: User data storage and authentication are handled seamlessly
 
 Project Structure
 
-![home](/public/readme/home.PNG)
 ![Project Structure](/public/readme/movies.PNG)
+![home](/public/readme/home.PNG)
 ![Project Structure](/public/readme/seats.PNG)
 ![Project Structure](/public/readme/store.PNG)
 
