@@ -1,5 +1,5 @@
 import "./MovieTypes.css";
-import ScreenxImage from "/public/assets/first page/navbar/movies types images/ScreenxImage.jpg";
+import ScreenxImage from "../../../public/assets/first page/navbar/movies types images/ScreenxImage.jpg";
 import { useNavigate } from "react-router-dom";
 
 const ScreenX = () => {

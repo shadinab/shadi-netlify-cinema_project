@@ -1,5 +1,5 @@
 import "./MovieTypes.css";
-import ImaxImage from "/public/assets/first page/navbar/movies types images/ImaxImage.jpg";
+import ImaxImage from "../../../public/assets/first page/navbar/movies types images/ImaxImage.jpg";
 import { useNavigate } from "react-router-dom";
 
 const Imax = () => {

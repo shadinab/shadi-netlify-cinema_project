@@ -14,7 +14,7 @@ const TicketPurchase = ({ onPurchase }) => {
       try {
         // Make a GET request to the API
         const response = await axios.get(
-          "https://6529506f55b137ddc83e97ce.mockapi.io/users"
+          "https://655e4f599f1e1093c59ae302.mockapi.io/shadi"
         );
 
         // Find the user with the matching username

@@ -15,7 +15,7 @@ const Signup = () => {
 
     try {
       const response = await axios.post(
-        "https://6529506f55b137ddc83e97ce.mockapi.io/users",
+        "https://655e4f599f1e1093c59ae302.mockapi.io/shadi",
         {
           username,
           password,

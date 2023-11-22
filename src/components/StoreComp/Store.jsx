@@ -367,7 +367,7 @@ const cinemaItems = [
 
 const Store = () => {
   const loggedInUserId = JSON.parse(localStorage.getItem("user"));
-  const STORE_API_URL = `https://6529506f55b137ddc83e97ce.mockapi.io/users/${loggedInUserId.id}`;
+  const STORE_API_URL = `https://655e4f599f1e1093c59ae302.mockapi.io/shadi/${loggedInUserId.id}`;
 
   const [selectedItems, setSelectedItems] = useState([]);
   const [currentBalance, setCurrentBalance] = useState(0);
@@ -426,7 +426,7 @@ const Store = () => {
     );
 
     if (totalPrice > currentBalance) {
-      console.log("Insufficient balance");
+      toast.error("Error: Insufficient funds");
       return;
     }
 

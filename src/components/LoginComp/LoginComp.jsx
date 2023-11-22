@@ -16,7 +16,7 @@ const LoginComp = () => {
     try {
       // Fetch user data from the MockAPI endpoint
       const response = await axios.get(
-        "https://6529506f55b137ddc83e97ce.mockapi.io/users"
+        "https://655e4f599f1e1093c59ae302.mockapi.io/shadi"
       );
 
       // Check if the username and password match with fetched data
