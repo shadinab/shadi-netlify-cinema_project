@@ -69,7 +69,7 @@ Run the development server:
 bash
 Copy code
 npm start
-Open your browser and visit https://cinema-project-shadi.netlify.app/store  to view the application.
+Open your browser and visit [https://cinema-project-shadi.netlify.app/store](https://shadi-cinema-final.netlify.app/)  to view the application.
 
 Usage
 Sign Up / Sign In:
